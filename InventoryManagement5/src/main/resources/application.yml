@@ -1,0 +1,10 @@
+Spring:
+ datasource:
+  url: jdbc:mysql://localhost:3306/stockss
+  username: root
+  password: 1234
+  driver-class-name: com.mysql.jdbc.Driver
+ jpa:
+  database-platform: org.hibernate.dialect.MySQL8Dialect
+  hibernate.ddl-auto: create
+  show-sql: true 
